@@ -1,0 +1,7 @@
+<paths>
+    <files-path name="my_files" path="files" /> <!-- Context.getFilesDir() -->
+    <cache-path name="my_cache" path="cache" /> <!-- Context.getCacheDir() -->
+    <external-path name="my_external" path="external" /> <!-- Environment.getExternalStorageDirectory() -->
+    <external-files-path name="my_external_files" path="external_files" /> <!-- Context.getExternalFilesDir(null) -->
+    <external-cache-path name="my_external_cache" path="external_cache" /> <!-- Context.getExternalCacheDir() -->
+</paths>
